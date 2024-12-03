@@ -3,12 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
+    "@fortawesome/fontawesome-svg-core": "^6.7.1",
+    "@fortawesome/free-regular-svg-icons": "^6.7.1",
+    "@fortawesome/free-solid-svg-icons": "^6.7.1",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "@testing-library/user-event": "^13.5.0",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.6",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
+    "u": "^0.1.0",
+    "uid": "^2.0.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +43,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.0.1",
+    "cypress": "^13.16.0",
+    "jest": "^27.5.1"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "cypress.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
